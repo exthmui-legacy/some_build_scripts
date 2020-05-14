@@ -200,7 +200,7 @@ function init_patches() {
 }
 
 function sync_repo() {
-    repo sync -c -j "$jobs" -f --force-sync --no-clone-bundle --no-tags --fail-fast
+    repo sync -c -j "$jobs" --force-sync --no-clone-bundle --no-tags --fail-fast
 }
 
 function patch_things() {
